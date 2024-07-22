@@ -1,0 +1,18 @@
+data:
+  raw_data_path: "data/raw/your_raw_data.csv"
+  processed_data_path: "data/processed/processed_data.csv"
+
+model:
+  input_size: 1
+  hidden_size: 64
+  num_layers: 3
+  num_heads: 4
+  dropout: 0.1
+
+training:
+  batch_size: 32
+  num_epochs: 10
+  learning_rate: 0.001
+
+evaluation:
+  test_size: 0.2
