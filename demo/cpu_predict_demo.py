@@ -7,8 +7,7 @@ import math
 import matplotlib.pyplot as plt
 
 # 数据预处理
-url = "https://raw.githubusercontent.com/numenta/NAB/master/data/realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv"
-df = pd.read_csv(url)
+df = pd.read_csv("data/raw/cpu_demo.csv")
 
 data = df['value'].values
 sequence_length = 30
